@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+      
+</head>
+
+
+<body>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+      <script src="script.js"></script>
+      <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid fixed-top">
+                  <img class="logo" src="img/chicken-logo2.png" alt=" chicken logo">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon icon-yellow"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                              <img class="logo" src="img/chicken-logo2.png" alt=" chicken logo">
+                              <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                    <li class="nav-item">
+                                          <a class="nav-link mx-lg-5 " href="#">HOME</a>
+                                    </li>
+                                    <li class="nav-item">
+                                          <a class="nav-link mx-lg-5 " href="#">EAT & DRINK</a>
+                                    </li>
+                                    <li class="nav-item">
+                                          <a class="nav-link mx-lg-5 " href="#">GALLERY</a>
+                                    </li>
+                                    <li class="nav-item">
+                                          <a class="nav-link mx-lg-5 " href="#">CONTACT</a>
+                                    </li>
+                              </ul>
+                        </div>
+                  </div>
+            </div>
+      </nav>
+
+      <div class="slider">
+            <img id="slideImg" src="image-slider.jpg"> 
+          </div>
+
+          <script>
+            // Get reference to img tag 
+            var slideImg = document.getElementById('slideImg');
+            
+            // Array of image paths
+            var slides = [
+            'WhatsApp Image 2024-01-16 at 22.28.55_844166e4.jpg', 'WhatsApp Image 2024-01-16 at 22.29.02_af6ece21.jpg', 'WhatsApp Image 2024-01-16 at 22.29.22_f16ae131.jpg', 'WhatsApp Image 2024-01-16 at 22.29.27_7551a854.jpg', 'WhatsApp Image 2024-01-16 at 22.29.19_f75b6038.jpg', 'WhatsApp Image 2024-01-16 at 22.29.21_cf6dfa54.jpg'
+            ]; 
+            
+            var start = 0; 
+            
+            // Function to change image  
+            function changeSlide() {
+            
+              // Increment counter
+              start++;
+            
+              // Reset counter to 0 if needed
+              if(start === slides.length) {
+                start = 0; 
+              }
+            
+              // Set new image
+              slideImg.src = slides[start];
+            
+            }
+            
+            // Change image every 2 seconds
+            setInterval(changeSlide, 4000);
+            </script>
+            
+      <div class="book-img">
+            <div class="book-div">
+                  <div class="frame-25">
+                        <span class="book-a-table"> BOOK A TABLE </span>
+                        <p class="paragraph1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                              tempor incididunt ut labore et dolore magna aliqua.
+                              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                              commodo consequat.
+                              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                              nulla pariatur.</p>
+                        <div class="buttons-div">
+                              <button class="menu-button"> Menu </button>
+                              <button class="book-button">Book a table</button>
+                        </div>
+                  </div>
+            </div>
+            <div class="young-chef-1">
+                  <img class="chef-pic-1" src="img/chef-pic.jpg" />
+                 
+            </div>
+           
+      </div>
+
+      <div class="special-cuisine">
+            <div class="special-heading">
+                  <div class="our-special-cuisines"> OUR SPECIAL CUISINES </div>
+            </div>
+            <div
+                  class="paragraph2">
+                  Lorem ipsum dolor sit amet consectetur. Malesuada et cras quam ullamcorper. Luctus ut velit viverra
+                  massa dui cras. Purus scelerisque ultrices pellentesque augue urna. Sed eget nunc. </div>
+      </div>
+
+
+      <div class="cuisine-display">
+            <div class="rectangle-4">
+                  <div class="food-1">
+                        <img class="food-1" src="WhatsApp Image 2024-01-16 at 22.28.55_844166e4.jpg">
+                  </div>
+                  <div class="rectangle-5">
+                  </div>
+                  <div class="food-text1">
+                        Lorem ipsum dolor sit amet consectetur. Nunc laoreet scelerisque amalesuada vestibulum sed. Eu
+                        auctor enim.
+                  </div>
+            </div>
+            <div class="component-20">
+                  <div class="food-2">
+                        <img class="food-2" src="WhatsApp Image 2024-01-16 at 22.29.02_af6ece21.jpg">
+                  </div>
+                  <div class="rectangle-5">
+                  </div>
+                  <div class="food-text1">
+                        Lorem ipsum dolor sit amet consectetur. Nunc laoreet scelerisque amalesuada vestibulum sed. Eu
+                        auctor enim. </div>
+            </div>
+            <div class="component-19">
+                  <div class="food-3">
+                        <img class="food-3" src="WhatsApp Image 2024-01-16 at 22.29.05_29b9aa0f.jpg">
+                  </div>
+                  <div class="rectangle-5">
+                  </div>
+                  <div class="food-text1">
+                        Lorem ipsum dolor sit amet consectetur. Nunc laoreet scelerisque amalesuada vestibulum sed. Eu
+                        auctor enim. </div>
+            </div>
+            <div class="component-23">
+                  <div class="food-4">
+                        <img class="food-4" src="WhatsApp Image 2024-01-16 at 22.28.55_844166e4.jpg">
+                  </div>
+                  <div class="rectangle-5">
+                  </div>
+                  <div class="food-text1">
+                        Lorem ipsum dolor sit amet consectetur. Nunc laoreet scelerisque amalesuada vestibulum sed. Eu
+                        auctor enim. </div>
+            </div>
+            <div class="component-24">
+                  <div class="food-5">
+                        <img class="food-5" src="WhatsApp Image 2024-01-16 at 22.29.19_f75b6038.jpg">
+                  </div>
+                  <div class="rectangle-5">
+                  </div>
+                  <div class="food-text1">
+                        Lorem ipsum dolor sit amet consectetur. Nunc laoreet scelerisque amalesuada vestibulum sed. Eu
+                        auctor enim. </div>
+            </div>
+            <div class="component-25">
+                  <div class="food-6">
+                        <img class="food-6" src="WhatsApp Image 2024-01-16 at 22.29.21_cf6dfa54.jpg">
+                  </div>
+                  <div class="rectangle-5">
+                  </div>
+                  <div class="food-text1">
+                        Lorem ipsum dolor sit amet consectetur. Nunc laoreet scelerisque amalesuada vestibulum sed. Eu
+                        auctor enim. </div>
+            </div>
+      </div>
+
+      
+      <div class="customer-reviews"> CUSTOMER REVIEWS </div>
+      <div class="comment-div">
+            
+            <div class="comment-1">
+                  <div class="rectangle-3">
+                        <div class="ellipse-1">
+                        </div>
+                        <h1 class="comment-text1"> Lorem ipsum dolor sit amet consectetur.
+                              Pharetra tristique nisi et viverra vel consequat molestie volutpat.
+                              Cursus convallis neque faucibus enim donec. Sed sit sed tristique convallis quam.
+                        </h1>
+                        <h2 class="comment-name1"> NANA KWAME </h2>
+                        <div class="stars-div">
+                              <div class="mingcute-star-fill">
+                                    <img src="img/mingcute_star-fill.svg">
+                              </div>
+                              <div class="mingcute-star-fill">
+                                    <img src="img/mingcute_star-fill.svg">
+                              </div>
+                              <div class="mingcute-star-fill">
+                                    <img src="img/mingcute_star-fill.svg">
+                              </div>
+                              <div class="mingcute-star-fill">
+                                    <img src="img/mingcute_star-fill.svg">
+                              </div>
+                              <div class="mingcute-star-fill">
+                                    <img src="img/mingcute_star-fill.svg">
+                              </div>
+                        </div>
+
+                  </div>
+
+
+            </div>
+            <div class="comment-2">
+                  <div class="rectangle-3">
+                        <div class="ellipse-1">
+                        </div>
+                        <h1 class="comment-text2">
+                              Lorem ipsum dolor sit amet consectetur. Pharetra tristique nisi et viverra vel consequat
+                              molestie volutpat. Cursus convallis neque faucibus enim donec. Sed sit sed tristique convallis
+                              quam. 
+                        </h1>
+                        <h2 class="comment-name2"> LOREM IPSUM </h2>
+                        <div class="stars-div">
+                              <div class="mingcute-star-fill">
+                                    <img src="img/mingcute_star-fill.svg">
+                              </div>
+                              <div class="mingcute-star-fill">
+                                    <img src="img/mingcute_star-fill.svg">
+                              </div>
+                              <div class="mingcute-star-fill">
+                                    <img src="img/mingcute_star-fill.svg">
+                              </div>
+                              <div class="mingcute-star-fill">
+                                    <img src="img/mingcute_star-fill.svg">
+                              </div>
+                              <div class="mingcute-star-fill">
+                                    <img src="img/mingcute_star-fill.svg">
+                              </div>
+                        </div>
+
+                  </div>
+                 
+            </div>
+            <div class="comment-3">
+                  <div class="rectangle-3">
+                        <div class="rectangle-3">
+                              <div class="ellipse-1">
+                              </div>
+                              <h1 class="comment-text3">
+                                    Lorem ipsum dolor sit amet consectetur. Pharetra tristique nisi et viverra vel consequat
+                                    molestie volutpat. Cursus convallis neque faucibus enim donec. Sed sit sed tristique convallis
+                                    quam. 
+                              </h1>
+                              <h2 class="comment-name3"> LOREM IPSUM </h2>
+                              <div class="stars-div">
+                                    <div class="mingcute-star-fill">
+                                          <img src="img/mingcute_star-fill.svg">
+                                    </div>
+                                    <div class="mingcute-star-fill">
+                                          <img src="img/mingcute_star-fill.svg">
+                                    </div>
+                                    <div class="mingcute-star-fill">
+                                          <img src="img/mingcute_star-fill.svg">
+                                    </div>
+                                    <div class="mingcute-star-fill">
+                                          <img src="img/mingcute_star-fill.svg">
+                                    </div>
+                                    <div class="mingcute-star-fill">
+                                          <img src="img/mingcute_star-fill.svg">
+                                    </div>
+                              </div>
+      
+                        </div>
+                  </div>
+                  
+            </div>
+            <div class="comment-4">
+                  <div class="rectangle-3">
+                        <div class="rectangle-3">
+                              <div class="ellipse-1">
+                              </div>
+                              <h1 class="comment-text4">
+                                    Lorem ipsum dolor sit amet consectetur. Pharetra tristique nisi et viverra vel consequat
+                                    molestie volutpat. Cursus convallis neque faucibus enim donec. Sed sit sed tristique convallis
+                                    quam. 
+                              </h1>
+                              <h2 class="comment-name4"> LOREM IPSUM </h2>
+                              <div class="stars-div">
+                                    <div class="mingcute-star-fill">
+                                          <img src="img/mingcute_star-fill.svg">
+                                    </div>
+                                    <div class="mingcute-star-fill">
+                                          <img src="img/mingcute_star-fill.svg">
+                                    </div>
+                                    <div class="mingcute-star-fill">
+                                          <img src="img/mingcute_star-fill.svg">
+                                    </div>
+                                    <div class="mingcute-star-fill">
+                                          <img src="img/mingcute_star-fill.svg">
+                                    </div>
+                                    <div class="mingcute-star-fill">
+                                          <img src="img/mingcute_star-fill.svg">
+                                    </div>
+                              </div>
+      
+                        </div>
+                  </div>
+                
+                 
+            </div>
+      </div>
+      
+<!-- Swiper -->
+<div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="rectangle-3">
+              <div class="ellipse-1">
+              </div>
+              <h1 class="comment-text1"> Lorem ipsum dolor sit amet consectetur.
+                    Pharetra tristique nisi et viverra vel consequat molestie volutpat.
+                    Cursus convallis neque faucibus enim donec. Sed sit sed tristique convallis quam.
+              </h1>
+              <h2 class="comment-name1"> NANA KWAME </h2>
+              <div class="stars-div">
+                    <div class="mingcute-star-fill">
+                          <img src="img/mingcute_star-fill.svg">
+                    </div>
+                    <div class="mingcute-star-fill">
+                          <img src="img/mingcute_star-fill.svg">
+                    </div>
+                    <div class="mingcute-star-fill">
+                          <img src="img/mingcute_star-fill.svg">
+                    </div>
+                    <div class="mingcute-star-fill">
+                          <img src="img/mingcute_star-fill.svg">
+                    </div>
+                    <div class="mingcute-star-fill">
+                          <img src="img/mingcute_star-fill.svg">
+                    </div>
+              </div>
+  
+        </div>
+  
+        </div>
+        <div class="swiper-slide"> <div class="rectangle-3">
+          <div class="ellipse-1">
+          </div>
+          <h1 class="comment-text2">
+                Lorem ipsum dolor sit amet consectetur. Pharetra tristique nisi et viverra vel consequat
+                molestie volutpat. Cursus convallis neque faucibus enim donec. Sed sit sed tristique convallis
+                quam. 
+          </h1>
+          <h2 class="comment-name2"> LOREM IPSUM </h2>
+          <div class="stars-div">
+                <div class="mingcute-star-fill">
+                      <img src="img/mingcute_star-fill.svg">
+                </div>
+                <div class="mingcute-star-fill">
+                      <img src="img/mingcute_star-fill.svg">
+                </div>
+                <div class="mingcute-star-fill">
+                      <img src="img/mingcute_star-fill.svg">
+                </div>
+                <div class="mingcute-star-fill">
+                      <img src="img/mingcute_star-fill.svg">
+                </div>
+                <div class="mingcute-star-fill">
+                      <img src="img/mingcute_star-fill.svg">
+                </div>
+          </div>
+  
+    </div>
+  </div>
+        <div class="swiper-slide">
+          <div class="rectangle-3">
+              <div class="rectangle-3">
+                    <div class="ellipse-1">
+                    </div>
+                    <h1 class="comment-text3">
+                          Lorem ipsum dolor sit amet consectetur. Pharetra tristique nisi et viverra vel consequat
+                          molestie volutpat. Cursus convallis neque faucibus enim donec. Sed sit sed tristique convallis
+                          quam. 
+                    </h1>
+                    <h2 class="comment-name3"> LOREM IPSUM </h2>
+                    <div class="stars-div">
+                          <div class="mingcute-star-fill">
+                                <img src="img/mingcute_star-fill.svg">
+                          </div>
+                          <div class="mingcute-star-fill">
+                                <img src="img/mingcute_star-fill.svg">
+                          </div>
+                          <div class="mingcute-star-fill">
+                                <img src="img/mingcute_star-fill.svg">
+                          </div>
+                          <div class="mingcute-star-fill">
+                                <img src="img/mingcute_star-fill.svg">
+                          </div>
+                          <div class="mingcute-star-fill">
+                                <img src="img/mingcute_star-fill.svg">
+                          </div>
+                    </div>
+  
+              </div>
+        </div>
+        </div>
+        <div class="swiper-slide">
+              <div class="rectangle-3">
+                    <div class="rectangle-3">
+                          <div class="ellipse-1">
+                          </div>
+                          <h1 class="comment-text4">
+                                Lorem ipsum dolor sit amet consectetur. Pharetra tristique nisi et viverra vel consequat
+                                molestie volutpat. Cursus convallis neque faucibus enim donec. Sed sit sed tristique convallis
+                                quam. 
+                          </h1>
+                          <h2 class="comment-name4"> LOREM IPSUM </h2>
+                          <div class="stars-div">
+                                <div class="mingcute-star-fill">
+                                      <img src="img/mingcute_star-fill.svg">
+                                </div>
+                                <div class="mingcute-star-fill">
+                                      <img src="img/mingcute_star-fill.svg">
+                                </div>
+                                <div class="mingcute-star-fill">
+                                      <img src="img/mingcute_star-fill.svg">
+                                </div>
+                                <div class="mingcute-star-fill">
+                                      <img src="img/mingcute_star-fill.svg">
+                                </div>
+                                <div class="mingcute-star-fill">
+                                      <img src="img/mingcute_star-fill.svg">
+                                </div>
+                          </div>
+  
+                    </div>
+              </div>
+        </div>
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+      <!-- Add Navigation -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  
+    <!-- Include plugin after Swiper -->
+    <script>
+      /* ========
+  Debugger plugin, simple demo plugin to console.log some of callbacks
+  ======== */
+      function myPlugin({ swiper, extendParams, on }) {
+        extendParams({
+          debugger: false,
+        });
+  
+        on('init', () => {
+          if (!swiper.params.debugger) return;
+          console.log('init');
+        });
+        on('click', (swiper, e) => {
+          if (!swiper.params.debugger) return;
+          console.log('click');
+        });
+        on('tap', (swiper, e) => {
+          if (!swiper.params.debugger) return;
+          console.log('tap');
+        });
+        on('doubleTap', (swiper, e) => {
+          if (!swiper.params.debugger) return;
+          console.log('doubleTap');
+        });
+        on('sliderMove', (swiper, e) => {
+          if (!swiper.params.debugger) return;
+          console.log('sliderMove');
+        });
+        on('slideChange', () => {
+          if (!swiper.params.debugger) return;
+          console.log(
+            'slideChange',
+            swiper.previousIndex,
+            '->',
+            swiper.activeIndex
+          );
+        });
+        on('slideChangeTransitionStart', () => {
+          if (!swiper.params.debugger) return;
+          console.log('slideChangeTransitionStart');
+        });
+        on('slideChangeTransitionEnd', () => {
+          if (!swiper.params.debugger) return;
+          console.log('slideChangeTransitionEnd');
+        });
+        on('transitionStart', () => {
+          if (!swiper.params.debugger) return;
+          console.log('transitionStart');
+        });
+        on('transitionEnd', () => {
+          if (!swiper.params.debugger) return;
+          console.log('transitionEnd');
+        });
+        on('fromEdge', () => {
+          if (!swiper.params.debugger) return;
+          console.log('fromEdge');
+        });
+        on('reachBeginning', () => {
+          if (!swiper.params.debugger) return;
+          console.log('reachBeginning');
+        });
+        on('reachEnd', () => {
+          if (!swiper.params.debugger) return;
+          console.log('reachEnd');
+        });
+      }
+    </script>
+  
+    <script>
+      // Init Swiper
+      var swiper = new Swiper('.swiper', {
+        // Install Plugin To Swiper
+        modules: [myPlugin],
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        // Enable debugger
+        debugger: true,
+      });
+    </script>
+
+            
+<div class="footer">
+      <div class="rectangle-4192">
+      </div>
+      <div class="contact-us"> CONTACT US </div><img class="social-icons" >
+      <h1 class="gallery" href="#" > Gallery </h1>
+      <h1 class="email"> Lorem ipsum dolor sit amet consectetur. </h1>
+      <h1 class="number" > +233 XXX XXX XXX </h1>
+      <div class="quick-links"> QUICK LINKS </div>
+      <h1 class="home" href="#"> Home </h1>
+      <h1 class="eat-drink" href="#"> Eat &amp; Drink </h1>
+      <h1 class="contact" href="#"> Contact </h1>
+      h1 class="socials"> SOCIALS </h1>
+      src="facebook Icon.jpg">
+      <img class="social-icons2" src="X icon.jpg">
+      <img class="social-icons3"src="Instagram Icon.png">
+      <img class="social-icons4"src="Snap icon.png">
+  </div>
+      </footer>
+</body>
+
+</html>

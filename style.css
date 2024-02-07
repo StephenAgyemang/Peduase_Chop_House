@@ -1101,142 +1101,41 @@ outline: none ;
 
 
 /*FOOTER*/
+
 .footer {
-    height: 320.51px;
-    position: relative;
-    top:390px;
-    display: flex;
-}
-
-.rectangle-4192 {
     background: #322e18;
-    position: absolute;
-    right: 0%;
-    left: 0%;
-    width: 100%;
-    bottom: 0%;
-    top: 0%;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     height: 100%;
+    position: relative;
+    
+    top:352px;
 }
 
-.gallery {
-    color: rgba(255, 255, 255, 0.64);
-    text-align: center;
-    font-family: 'Montserrat-Medium', sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    position: absolute;
-    right: 42.5%;
-    left: 44.77%;
-    width: 12.73%;
-    bottom: 24.46%;
-    top: 68.33%;
-    height: 7.21%;
+.contact-div {
+   
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 1;
+    position: relative;
 }
 
-.contact {
-    color: rgba(255, 255, 255, 0.64);
-    text-align: center;
-    font-family: 'Montserrat-Medium', sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    position: absolute;
-    right: 42.5%;
-    left: 44.77%;
-    width: 12.73%;
-    bottom: 7.92%;
-    top: 84.87%;
-    height: 7.21%;
-}
-
-.eat-drink {
-    color: rgba(255, 255, 255, 0.64);
-    text-align: center;
-    font-family: 'Montserrat-Medium', sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    position: absolute;
-    right: 44.45%;
-    left: 46.72%;
-    width: 8.83%;
-    bottom: 41.03%;
-    top: 51.79%;
-    height: 7.18%;
-}
-
-.home {
-    color: rgba(255, 255, 255, 0.64);
-    text-align: center;
-    font-family: 'Montserrat-Medium', sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    position: absolute;
-    right: 46.64%;
-    left: 48.44%;
-    width: 4.92%;
-    bottom: 57.57%;
-    top: 35.26%;
-    height: 7.18%;
-}
-
-.number{
-    color: rgba(255, 255, 255, 0.64);
-    text-align: center;
-    font-family: 'Montserrat-Medium', sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    position: absolute;
-    right: 70%;
-    left: 17.11%;
-    width: 12.89%;
-    bottom: 33.54%;
-    top: 59.28%;
-    height: 7.18%;
-}
-
-.email {
-    color: rgba(255, 255, 255, 0.64);
-    text-align: center;
-    font-family: 'Montserrat-Medium', sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    position: absolute;
-    right: 67.19%;
-    left: 14.45%;
-    width: 18.36%;
-    bottom: 50.16%;
-    top: 35.41%;
-    height: 14.43%;
-}
-
-.socials {
-    color: rgba(255, 255, 255, 0.74);
-    text-align: center;
-    font-family: 'Montserrat-Bold', sans-serif;
-    font-size: 24px;
-    font-weight: 700;
-    position: absolute;
-    right: 20.16%;
-    left: 71.25%;
-    width: 8.59%;
-    bottom: 74.1%;
-    top: 16.39%;
-    height: 9.51%;
-}
-
-.quick-links {
-    color: rgba(255, 255, 255, 0.74);
-    text-align: center;
-    font-family: 'Montserrat-Bold', sans-serif;
-    font-size: 24px;
-    font-weight: 700;
-    position: absolute;
-    right: 42.97%;
-    left: 44.22%;
-    width: 12.81%;
-    bottom: 74.1%;
-    top: 16.39%;
-    height: 9.51%;
+.frame-48 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
 }
 
 .contact-us {
@@ -1245,60 +1144,199 @@ outline: none ;
     font-family: 'Montserrat-Bold', sans-serif;
     font-size: 24px;
     font-weight: 700;
+    position: relative;
+    width: 163px;
+    height: 30.47px;
+}
+
+.email{
+    color: rgba(255, 255, 255, 0.64);
+    text-align: center;
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    width: 235px;
+    height: 46.24px;
+}
+
+.number {
+    color: rgba(255, 255, 255, 0.64);
+    text-align: center;
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    width: 165px;
+    height: 23px;
+}
+
+.quicklinks-div {
+    
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 1;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.frame-49 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.quick-links {
+    color: rgba(255, 255, 255, 0.74);
+    text-align: center;
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+    width: 164px;
+    height: 30.47px;
+}
+
+.home {
+    color: rgba(255, 255, 255, 0.64);
+    text-align: center;
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    width: 63px;
+    height: 23px;
+}
+
+.eat-drink {
+    color: rgba(255, 255, 255, 0.64);
+    text-align: center;
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    width: 113px;
+    height: 23px;
+}
+
+.gallery {
+    color: rgba(255, 255, 255, 0.64);
+    text-align: center;
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    width: 163px;
+    height: 23.12px;
+}
+
+.contact {
+    color: rgba(255, 255, 255, 0.64);
+    text-align: center;
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    width: 163px;
+    height: 23.12px;
+}
+
+.socials-div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    width: 258px;
+    height: 170px;
+    position: relative;
+}
+
+.frame-56 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
     position: absolute;
-    right: 70%;
-    left: 17.27%;
-    width: 12.73%;
-    bottom: 74.1%;
-    top: 16.39%;
-    height: 9.51%;
+    left: 0.5px;
+    top: 11px;
+}
+
+.frame-58 {
+    padding: 0px 73px 0px 73px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-end;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.socials {
+    color: rgba(255, 255, 255, 0.74);
+    text-align: center;
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+    width: 110px;
+    height: 30.47px;
+}
+
+.frame-50 {
+    display: flex;
+    flex-direction: row;
+    gap: 27px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: absolute;
+    left: -0.5px;
+    top: 56px;
 }
 
 .social-icons {
-    height: auto;
-    position: absolute;
-    right: 14.37%;
-    left: 82.19%;
-    width: 3.44%;
-    bottom: 53.11%;
-    top: 34.1%;
-    height: 12.79%;
+    flex-shrink: 0;
+    width: 44px;
+    height: 40.98px;
+    position: relative;
     overflow: visible;
 }
 
 .social-icons2 {
-    height: auto;
-    position: absolute;
-    right: 19.92%;
-    left: 76.64%;
-    width: 3.44%;
-    bottom: 53.44%;
-    top: 33.77%;
-    height: 12.79%;
+    flex-shrink: 0;
+    width: 44px;
+    height: 41.94px;
+    position: relative;
     overflow: visible;
 }
 
 .social-icons3 {
-    height: auto;
-    position: absolute;
-    right: 25.47%;
-    left: 71.09%;
-    width: 3.44%;
-    bottom: 52.82%;
-    top: 34.1%;
-    height: 13.08%;
+    flex-shrink: 0;
+    width: 44px;
+    height: 40.98px;
+    position: relative;
     overflow: visible;
 }
 
 .social-icons4 {
-    height: auto;
-    position: absolute;
-    right: 31.02%;
-    left: 65.55%;
-    width: 3.44%;
-    bottom: 53.11%;
-    top: 34.1%;
-    height: 12.79%;
+    flex-shrink: 0;
+    width: 44px;
+    height: 40.98px;
+    position: relative;
     overflow: visible;
 }
 
@@ -1314,7 +1352,7 @@ outline: none ;
  
 
 
- @media only screen and (max-width: 1400px){
+ @media only screen and (max-width: 1100px){
 
    .container-fluid fixed-top{
       display:contents;
@@ -1841,12 +1879,17 @@ body{width: fit-content;}
 }
 
 .footer {
-   height: 320.51px;
-   position: relative;
-   top:750px;
-   display: flex;
+    background: #322e18;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+    position: relative;
+    top:752px;
 }
-
 
 }
 

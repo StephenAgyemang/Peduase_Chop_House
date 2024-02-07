@@ -12,86 +12,135 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
  
 <body>
-  <nav class="navbar navbar-expand-lg  fixed-top">
-    <div class="container-fluid fixed-top">
-      <img class="logo" src="img/chicken-logo2.png" alt=" chicken logo">
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header">
-            <img class="logo" src="img/chicken-logo2.png" alt=" chicken logo">
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                      <a class="nav-link mx-lg-5 " href="#">HOME</a>
-                </li>
-                <li class="nav-item">
-                      <a class="nav-link mx-lg-5 " href="#">EAT & DRINK</a>
-                </li>
-                <li class="nav-item">
-                      <a class="nav-link mx-lg-5 " href="#">GALLERY</a>
-                </li>
-                <li class="nav-item">
-                      <a class="nav-link mx-lg-5 " href="#">CONTACT</a>
-                </li>
-          </ul>
-    </div>
-      </div>
-    </div>
-  </nav>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  
 
   <style>
-    .navbar{background-color: #322E18;
-height: 80px;
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
 
-}
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
 
-.navbar-toggler{
-   border: none;
-   font-size:20px;
-}
+    .swiper {
+      width: 100%;
+      height: 450px;
+    }
 
-span{
-   display:inline-block;
-}
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #1b180a;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
-.icon-green{
-   color: #F9A620;
-}
-.navbar-toggler:focus, .btn-close:focus{
-box-shadow: none ;
-outline: none ;
-} 
+    .swiper-slide img {
+      display: block;
+      width: 70%;
+      height: 100%;
+      
+    }
 
-.nav-link{
-   color:#F9A620;
-   font-family:'Work Sans', sans-serif;
-   font-weight: 600;
-   transition: 0.4s;
-   letter-spacing: 4px;
-}
+    .swiper-button-next, .swiper-button-prev{
+      width: 55px;
+      height: 55px;
+      border-radius: 20px;
+     opacity: 0.7;
+     color:#F9A620;
+     transition: all 0.4s ease;  
+ }
 
-.nav-link:hover, .nav-link:hover{
-   color:#ac6a00
-}
+ .swiper-button-next:hover, .swiper-button-prev:hover{
+     opacity:1;
+     color:#322e18;
+     
+ }
 
-.offcanvas-body{
-   background-color: #322E18;
-   
-}
-.offcanvas-header{
-   background-color: #322E18;
-}
+ .swiper-pagination-bullets{
+    display: none;
+ }
+ @media only screen and (max-width: 600px){
 
-.logo{
-   height: 80px;
-   top: -5px;
-}
+ 
+ .swiper {
+      width: 100%;
+      height: 300px;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #1b180a;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      
+    }
+
+    .swiper-button-next, .swiper-button-prev{
+      display: none;
+    }
+  }
+
   </style>
+</head>
+
+<body>
+  <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="slider-img.jpg"></div>
+      <div class="swiper-slide"><img src="WhatsApp Image 2024-01-16 at 22.28.55_844166e4.jpg"></div>
+      <div class="swiper-slide"><img src="WhatsApp Image 2024-01-16 at 22.29.02_af6ece21.jpg"></div>
+      <div class="swiper-slide"><img src="WhatsApp Image 2024-01-16 at 22.29.05_29b9aa0f.jpg"></div>
+      <div class="swiper-slide"><img src="WhatsApp Image 2024-01-16 at 22.29.19_f75b6038.jpg"> </div>
+      <div class="swiper-slide"><img src="WhatsApp Image 2024-01-16 at 22.29.21_cf6dfa54.jpg"></div>
+      <div class="swiper-slide"><img src="WhatsApp Image 2024-01-16 at 22.29.22_f16ae131.jpg"></div>
+      <div class="swiper-slide"><img src="WhatsApp Image 2024-01-16 at 22.29.27_7551a854.jpg"></div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 0,
+      centeredSlides: true,
+      autoplay: {
+        delay: 4500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
 
 </body>
 

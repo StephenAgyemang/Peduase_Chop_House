@@ -14,7 +14,7 @@
 
 
 
-/*.navbar{background-color: #322E18;
+.navbar{background-color: #322E18;
 height: 80px;
 
 }
@@ -58,7 +58,7 @@ outline: none ;
 }
 .offcanvas-header{
    background-color: #322E18;
-}*/
+}
 
 .logo{
    height: 80px;
@@ -752,7 +752,7 @@ outline: none ;
     overflow: hidden;
 }
 
-.group {
+/*.group {
     height: auto;
     position: absolute;
     right: 0%;
@@ -1097,7 +1097,7 @@ outline: none ;
     top: 0%;
     height: 100%;
     overflow: visible;
-}
+}*/
 
 
 /*FOOTER*/
@@ -1314,7 +1314,7 @@ outline: none ;
  
 
 
-@media only screen and (max-width: 768px){
+ @media only screen and (max-width: 1400px){
 
    .container-fluid fixed-top{
       display:contents;
@@ -1324,6 +1324,7 @@ html{width: 100%;
    height: 100%;
 
 }
+body{width: fit-content;}
 
    .logo{
       top: 0;
@@ -1335,15 +1336,15 @@ html{width: 100%;
       flex-direction: column;
       gap: 30px;
       height: 412px;
-      position: relative;
-      display: flex;
     align-items: center;
     justify-content: center;
-    top: 300px;
+    top: 340px;
+    visibility: visible;
+    
   }
   
   .book-div {
-      display: inline-block;
+      
       flex-direction: row;
       gap: 198px;
       align-items: flex-start;
@@ -1352,16 +1353,20 @@ html{width: 100%;
       height: 304px;
       position: relative;
       top:50px;
+      visibility: visible;
+
   }
   
   .frame-25 {
       display: flex;
       flex-direction: column;
-      gap: 40px;
+      gap: 20px;
       align-items: center;
       justify-content: center;
       flex-shrink: 0;
       position: relative;
+      visibility: visible;
+      
   }
   
   .book-a-table {
@@ -1371,7 +1376,9 @@ html{width: 100%;
       font-size: 20px;
       font-weight: 400;
       position: relative;
+      visibility: visible;
   }
+
   
   .paragraph1{
       color: #000000;
@@ -1380,18 +1387,23 @@ html{width: 100%;
       font-size: 15px;
       font-weight: 200;
       position: relative;
-      width: 502px;
+      width: 350px;
       height: 64px;
+      visibility: visible;
+      
   }
   
   .buttons-div {
       display: flex;
       flex-direction: row;
       align-items: center;
-      justify-content: space-between;
+      justify-content:center;
       flex-shrink: 0;
       width: 385px;
       position: relative;
+      gap:40px;
+      top:60px;
+      visibility: visible;
       ;
   }
   
@@ -1405,7 +1417,7 @@ html{width: 100%;
       align-items: center;
       justify-content: center;
       flex-shrink: 0;
-      width: 150px;
+      width: 110px;
       height: 32px;
       position: relative;
       color: #322e18;
@@ -1415,6 +1427,7 @@ html{width: 100%;
       font-weight: 400;
       border: none;
       transition: 0.4s;
+      visibility: visible;
   }
   
   .menu-button:hover{
@@ -1427,7 +1440,7 @@ html{width: 100%;
       align-items: center;
       justify-content: center;
       flex-shrink: 0;
-      width: 170px;
+      width: 140px;
       height: 32px;
       position: relative;
       color: #332f1c;
@@ -1437,6 +1450,7 @@ html{width: 100%;
       font-weight: 400;
       border: none;
       transition: 0.4s;
+      visibility: visible;
   
   }
   
@@ -1450,7 +1464,7 @@ html{width: 100%;
       align-items: center;
       justify-content: center;
       flex-shrink: 0;
-      width: 170px;
+      width: 140px;
       height: 32px;
       position: relative;
       color: #332f1c;
@@ -1459,6 +1473,7 @@ html{width: 100%;
       font-size: 17px;
       font-weight: 400;
       border: none;
+      visibility: visible;
       
   
   }
@@ -1473,16 +1488,17 @@ html{width: 100%;
       align-items: center;
       justify-content: center;
       flex-shrink: 0;
-      width: 150px;
+      width: 110px;
       height: 32px;
       position: relative;
       color: #f9a620;
       text-align:center;
       font-family: 'PathwayGothicOne-Regular', sans-serif;
-      font-size: 17px;
+      font-size: 15px;
       font-weight: 400;
       border: none;
-      transition: 0.4s
+      transition: 0.4s;
+      visibility: visible;
   }
   
   .book-button:hover{
@@ -1495,15 +1511,16 @@ html{width: 100%;
      align-items: center;
      justify-content: center;
      flex-shrink: 0;
-     width: 170px;
+     width: 140px;
      height: 32px;
      position: relative;
      color: #f9a620;
      text-align:center;
      font-family: 'PathwayGothicOne-Regular', sans-serif;
-     font-size: 17px;
+     font-size: 15px;
      font-weight: 400;
      border: none;
+     visibility: visible;
   }
   
   .book-button:active{
@@ -1516,15 +1533,16 @@ html{width: 100%;
      align-items: center;
      justify-content: center;
      flex-shrink: 0;
-     width: 170px;
+     width: 140px;
      height: 32px;
      position: relative;
      color: #f9a620;
      text-align:center;
      font-family: 'PathwayGothicOne-Regular', sans-serif;
-     font-size: 17px;
+     font-size: 15px;
      font-weight: 400;
      border: none;
+     visibility: visible;
   }
   
 
@@ -1537,16 +1555,18 @@ html{width: 100%;
    flex-shrink: 0;
    width: 368px;
    position: relative;
+   visibility: visible;
 }
 
 
 
 .our-special-cuisines{
    color: #000000;
-   text-align: left;
+   text-align: center;
    font-family: 'Montserrat Alternates', sans-serif;
    font-size: 20px;
    font-weight: 500;
+   width: 362px;
    position: relative;
    letter-spacing: 4px;
 
@@ -1557,10 +1577,11 @@ html{width: 100%;
    display: flex;
    flex-direction: column;
    gap: 30px;
+   width: 362px;
    align-items: center;
-   justify-content: center;
+   margin:auto;
    position: relative;
-   top: 550px;
+   top: 600px;
 }
 
 .special-heading {
@@ -1570,7 +1591,7 @@ html{width: 100%;
    align-items: center;
    justify-content: center;
    flex-shrink: 0;
-   width: 966px;
+   width: 362px;
    position: relative;
    overflow: hidden;
 }
@@ -1583,7 +1604,8 @@ html{width: 100%;
    justify-content: center;
    flex-wrap: wrap;
    position: relative;
-   top:600px;
+   top:700px;
+   
 }
 
 .paragraph2{
@@ -1593,7 +1615,7 @@ html{width: 100%;
    font-size: 16px;
    font-weight: 200;
    position: relative;
-   width: 442px;
+   width: 362px;
    height: 64px;
 }
 
@@ -1605,7 +1627,7 @@ html{width: 100%;
    font-weight: 500;
    position: relative;
    letter-spacing: 4px;
-   top:675px;
+   top:725px;
    
 }
 
@@ -1614,7 +1636,7 @@ html{width: 100%;
    width: 321px;
    height: 452px;
    border-radius: 36px;
-   top:720px;
+   top:750px;
  }
 
  .swiper-slide {

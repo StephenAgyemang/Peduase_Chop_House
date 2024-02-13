@@ -12,7 +12,9 @@
   font-family: 'Protest Riot', sans-serif;
   font-family: 'Work Sans', sans-serif;*/
 
-
+body{
+    height:100%;
+}
 
 .navbar{background-color: #322E18;
 height: 80px;
@@ -801,6 +803,7 @@ outline: none ;
     position: relative;
     width: 163px;
     height: 30.47px;
+    
 }
 
 .email{
@@ -999,7 +1002,398 @@ outline: none ;
    display: none;
  }
 
+ /*CONTACT*/
+ 
+ 
+ .desktop-2 {
+     background: #ffffff;
+     height: 846px;
+     position: relative;
+     overflow: hidden;
+ }
+ 
+ .mdi-light-email {
+     width: 24px;
+     height: 24px;
+     position: absolute;
+     left: 0px;
+     top: 0px;
+     overflow: visible;
+ }
+ 
+ .contact-background-img {
+     width: 100%;
+     height: 846px;
+     position: absolute;
+     left: 0px;
+     top: 0px;
+     object-fit: cover;
+ }
+ 
+ .contact-overlay {
+     width: 100%;
+     height: 846px;
+     position: absolute;
+     left: 0px;
+     top: 0px;
+     overflow: visible;
+ }
+ 
+ .contact{
+     color: rgba(217, 217, 217, 0.67);
+     text-align: center;
+     font-family: 'MontserratAlternates-Bold', sans-serif;
+     font-size: 48px;
+     font-weight: 700;
+     position: absolute;
+    
+     top: 110px;
+     height:auto;
+      width:100%;
+      margin: auto;
+ }
+ 
+ 
+ .frame-61 {
+     height: 813px;
+ }
 
+
+ 
+ .location-div {
+    border-radius: 22px;
+    border-style: solid;
+    border-width: 1.2px;
+    border-color: rgba(255, 255, 255, 0.54) ;
+    flex-shrink: 0;
+    width: 309px;
+    height: 400px;
+    margin: auto;
+    position: relative;
+    overflow: visible;
+    text-align: center;
+    align-items: center;
+    top: 210px;
+ }
+ 
+ .location-text {
+     color: rgba(255, 255, 255, 0.54);
+     text-align: center;
+     font-family: 'MontserratAlternates-Bold', sans-serif;
+     font-size: 18px;
+     font-weight: 700;
+     position: absolute;
+     left: 0px;
+     top: 119px;
+     width: 309px;
+ }
+ 
+ .location-icon {
+     flex-shrink: 0;
+     width: 47px;
+     height: 67px;
+     position: absolute;
+     right: 42.39%;
+     left: 42.39%;
+     width: 15.21%;
+     bottom: 77.25%;
+     top: 6%;
+     height: 16.75%;
+     overflow: visible;
+ }
+ 
+ .frame-62 {
+     display: flex;
+     flex-direction: row;
+     gap: 10px;
+     align-items: flex-start;
+     justify-content: flex-start;
+     position: absolute;
+     left: 1038px;
+     top: 337px;
+ }
+ 
+ .email-div {
+    border-radius: 22px;
+    border-style: solid;
+    border-width: 1.2px;
+    border-color: rgba(255, 255, 255, 0.54) ;
+    flex-shrink: 0;
+    width: 309px;
+    height: 400px;
+    position: relative;
+    overflow: visible;
+    text-align: center;
+    align-items: center;
+    left:1025px;
+    top:-69px;
+ }
+ 
+ .email-text {
+    flex-shrink: 0;
+    width: 100%;
+    height: 129px;
+    position: absolute;
+    top: 106px;
+    align-content: center;
+ }
+ 
+ .lorem-ipsum-com {
+     color: rgba(255, 255, 255, 0.54);
+     text-align: center;
+     font-family: 'MontserratAlternates-Bold', sans-serif;
+     font-size: 18px;
+     font-weight: 700;
+     text-decoration: underline;
+     position: absolute;
+     right: 0%;
+     left: 0%;
+     width: 100%;
+     bottom: 42.64%;
+     top: 40.31%;
+     height: 17.05%;
+ }
+ 
+ .lorem-ipsum-com2 {
+     color: rgba(255, 255, 255, 0.54);
+     text-align: center;
+     font-family: 'MontserratAlternates-Bold', sans-serif;
+     font-size: 18px;
+     font-weight: 700;
+     position: absolute;
+     right: 0%;
+     left: 0%;
+     width: 100%;
+     bottom: 0%;
+     top: 82.95%;
+     height: 17.05%;
+ }
+ 
+ .email-us-at {
+     color: rgba(255, 255, 255, 0.64);
+     text-align: center;
+     font-family: 'MontserratAlternates-Bold', sans-serif;
+     font-size: 18px;
+     font-weight: 700;
+     position: absolute;
+     right: 20.09%;
+     left: 17.09%;
+     width: 62.82%;
+     bottom: 82.95%;
+     top: 0%;
+     height: 17.05%;
+ }
+ 
+ .email-icon {
+     flex-shrink: 0;
+     width: 57px;
+     height: 100%;
+     position: absolute;
+     right: 40.78%;
+     left: 40.78%;
+     bottom: 81%;
+     top: 7.5%;
+     height: 11.5%;
+     overflow: visible;
+ }
+ 
+ .frame-60 {
+     display: flex;
+     flex-direction: row;
+     gap: 10px;
+     align-items: flex-start;
+     justify-content: flex-start;
+     position: absolute;
+     left: 80px;
+     top: 337px;
+ }
+ 
+.call-div {
+    border-radius: 22px;
+    border-style: solid;
+    border-width: 1.2px;
+    border-color: rgba(255, 255, 255, 0.54) ;
+    flex-shrink: 0;
+    width: 309px;
+    height: 400px;
+    position: relative;
+    overflow: visible;
+    text-align: center;
+    align-items: center;
+     top: -605px;
+     right:-6%;
+   
+ }
+
+ .call-div{
+    border-style: solid;
+    border-width: 1.2px;
+    border-color: rgba(255, 255, 255, 0.54) ;
+    border-radius: 22px;
+    width:309px;
+    height:400px;
+    top: -469px;
+    right:-6%;
+
+ }
+ 
+ .call-icon {
+    flex-shrink: 0;
+    width: 57px;
+    height: 100%;
+    position: absolute;
+    right: 40.78%;
+    left: 40.78%;
+    bottom: 81%;
+    top: 7.5%;
+    height: 11.5%;
+    overflow: visible;
+
+ }
+ 
+ .call-text {
+    flex-shrink: 0;
+     width: 100%;
+     height: 129px;
+     position: absolute;
+     top: 106px;
+     align-content: center;
+ }
+ 
+ ._233-xxx-xxx-xxx {
+     color: rgba(255, 255, 255, 0.54);
+     text-align: center;
+     font-family: 'MontserratAlternates-Bold', sans-serif;
+     font-size: 18px;
+     font-weight: 700;
+     position: absolute;
+     right: 0.44%;
+     left: 0%;
+     width: 99.56%;
+     bottom: 58.82%;
+     top: 29.41%;
+     height: 11.76%;
+ }
+ 
+ ._233-xxx-xxx-xxx2 {
+     color: rgba(255, 255, 255, 0.54);
+     text-align: center;
+     font-family: 'MontserratAlternates-Bold', sans-serif;
+     font-size: 18px;
+     font-weight: 700;
+     position: absolute;
+     right: 0.44%;
+     left: 0%;
+     width: 99.56%;
+     bottom: 29.41%;
+     top: 58.82%;
+     height: 11.76%;
+ }
+ 
+ ._233-xxx-xxx-xxx3 {
+     color: rgba(255, 255, 255, 0.54);
+     text-align: center;
+     font-family: 'MontserratAlternates-Bold', sans-serif;
+     font-size: 18px;
+     font-weight: 700;
+     position: absolute;
+     right: 0%;
+     left: 0.44%;
+     width: 99.56%;
+     bottom: 0%;
+     top: 88.24%;
+     height: 11.76%;
+ }
+ 
+ .call-us-on {
+     color: rgba(255, 255, 255, 0.54);
+     text-align: center;
+     font-family: 'MontserratAlternates-Bold', sans-serif;
+     font-size: 18px;
+     font-weight: 700;
+     position: absolute;
+     right: 21.93%;
+     left: 22.37%;
+     width: 55.7%;
+     bottom: 88.24%;
+     top: 0%;
+     height: 11.76%;
+ }
+ 
+ .frame-63 {
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     align-items: center;
+     justify-content: flex-start;
+     position: absolute;
+     left: 468px;
+     top: 734px;
+ }
+ 
+ .opening-hours {
+     color: rgba(255, 255, 255, 0.54);
+     text-align: left;
+     font-family: 'MontserratAlternates-Bold', sans-serif;
+     font-size: 20px;
+     font-weight: 600;
+     position: relative;
+ }
+ 
+ .open-text {
+     color: rgba(255, 255, 255, 0.54);
+     text-align: center;
+     font-family: 'MontserratAlternates-Bold', sans-serif;
+     font-size: 16px;
+     font-weight: 600;
+     position: relative;
+     width: 491px;
+     height: 71px;
+ }
+ 
+
+.frame-59 {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -114px;
+}
+
+.ig {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: visible;
+}
+
+.x-vector {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    transform: translate(0px, -32px);
+    overflow: visible;
+}
+
+.snp {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: visible;
+}
+
+.fcb {
+    flex-shrink: 0;
+    width: 18px;
+    height: 32px;
+    position: relative;
+    overflow: visible;
+}
 
  
 
